@@ -26,7 +26,7 @@ const RandomColor = () => {
     const g = handleLength(256);
     const b = handleLength(256);
 
-    setColor(`rgb (${r},${g},${b})`);
+    setColor(`rgb(${r},${g},${b})`);
   };
 
   useEffect(() => {
